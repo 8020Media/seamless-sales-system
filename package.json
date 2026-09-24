@@ -1,0 +1,25 @@
+{
+  "name": "seamless-sales-system",
+  "version": "2.0.0",
+  "description": "Seamless Sales System 2.0 — AI proposal engine with four-agent pipeline",
+  "main": "src/core/proposal-engine.js",
+  "scripts": {
+    "start": "node src/core/proposal-engine.js",
+    "test": "jest",
+    "dev": "nodemon src/core/proposal-engine.js"
+  },
+  "keywords": [
+    "proposal",
+    "ai",
+    "agent",
+    "sales",
+    "automation"
+  ],
+  "author": "8020 Ops",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^29.0.0",
+    "nodemon": "^3.0.0"
+  }
+}
